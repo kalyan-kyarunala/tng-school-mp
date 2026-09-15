@@ -1,0 +1,25 @@
+
+<view class="page pad">
+  <view class="card" style="overflow:hidden;padding:0">
+    <view class="hero-blue center" style="padding:36rpx">
+      <image class="icon icon-xl" style="margin:0 auto" src="/assets/icons/receipt-white.png"/>
+      <view style="font-weight:800;font-size:34rpx;margin-top:12rpx;color:#fff">Official receipt</view>
+      <view class="tiny" style="opacity:.9;color:#fff">SJK(C) Kuen Cheng</view>
+    </view>
+    <view style="padding:36rpx">
+      <view class="row between tiny"><text class="muted">Receipt no.</text><text style="font-weight:700">KC-RCP-2026-0442</text></view>
+      <view class="divider"></view>
+      <view class="row between tiny"><text class="muted">Student</text><text style="font-weight:700">Chong Wei Xuan</text></view>
+      <view class="divider"></view>
+      <view class="row between" style="margin:16rpx 0"><text>Tuition fee</text><text class="money">RM 180.00</text></view>
+      <view class="row between" style="margin:16rpx 0"><text>Transport</text><text class="money">RM 80.00</text></view>
+      <view class="row between" style="margin:16rpx 0"><text>Activity fee</text><text class="money">RM 25.00</text></view>
+      <view class="divider"></view>
+      <view class="row between"><text style="font-weight:700">Total paid</text><text class="money" style="font-size:36rpx;color:var(--green)">RM 285.00</text></view>
+      <view class="row" style="justify-content:center;margin:32rpx 0 12rpx"><image class="qr" src="/assets/qr/receipt-qr.png"/></view>
+      <view class="tiny muted center">Paid 3 Aug 2026 · Ref TNG-SCH-8841207</view>
+    </view>
+  </view>
+  <view class="btn dark" data-msg="Receipt saved as PDF" onTap="toast"><image class="icon icon-sm" src="/assets/icons/download-white.png"/><text>Download PDF</text></view>
+  <view class="btn ghost" data-msg="Sent to TNG inbox" onTap="toast"><image class="icon icon-sm" src="/assets/icons/envelope-blue.png"/><text>Save to TNG inbox</text></view>
+</view>

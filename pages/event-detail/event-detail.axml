@@ -1,0 +1,14 @@
+
+<view class="page">
+  <view class="event-cover" style="height:300rpx;background:linear-gradient(135deg,#FFB454,#F2683B)"><image class="icon icon-3xl" src="/assets/icons/trophy-white.png"/></view>
+  <view class="pad">
+    <view class="row between"><view class="h2" style="font-size:40rpx">Annual Sports Day</view><text class="pill soon">Open</text></view>
+    <view class="card mt">
+      <view class="list-row"><view class="ico i-amber"><image class="icon icon-md" src="/assets/icons/calendar-days-amber.png"/></view><view style="margin-left:24rpx"><view style="font-weight:600;font-size:26rpx">Saturday, 30 August 2026</view><view class="tiny muted">8:00 AM – 1:00 PM</view></view></view>
+      <view class="list-row"><view class="ico i-blue"><image class="icon icon-md" src="/assets/icons/location-dot-blue.png"/></view><view style="margin-left:24rpx"><view style="font-weight:600;font-size:26rpx">School field, SJK(C) Kuen Cheng</view><view class="tiny muted">Gate B entrance</view></view></view>
+    </view>
+    <view class="mt" style="line-height:1.65;color:#33425A">Join us for a morning of track events, tug-of-war and the parent–teacher relay. Ticket covers entry, a house T-shirt and refreshments for one guardian.</view>
+    <view class="card card-p mt row between"><text style="font-weight:700">Ticket price</text><text class="money" style="font-size:40rpx;color:var(--coral)">RM 15.00</text></view>
+    <view class="btn coral" onTap="register"><image class="icon icon-sm" src="/assets/icons/ticket-white.png"/><text>Register &amp; pay RM 15.00</text></view>
+  </view>
+</view>

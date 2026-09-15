@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "My VISA card",
+  "usingComponents": {
+    "custom-tab-bar": "/custom-tab-bar/index"
+  }
+}

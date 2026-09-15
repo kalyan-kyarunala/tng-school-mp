@@ -1,0 +1,36 @@
+
+<view class="page pad">
+  <view class="hero hero-blue center">
+    <view style="width:112rpx;height:112rpx;border-radius:50%;background:rgba(255,255,255,.16);border:2rpx solid rgba(255,255,255,.35);display:flex;align-items:center;justify-content:center;margin:0 auto 24rpx"><image class="icon icon-lg" src="/assets/icons/graduation-cap-white.png"/></view>
+    <view style="font-size:40rpx;font-weight:800;line-height:1.25">Your child's school, in your wallet</view>
+    <view class="tiny mt-s" style="opacity:.92;line-height:1.5">Pay fees, read notices and register for events — inside TNG eWallet. No new app, no new login.</view>
+  </view>
+
+  <view class="sec-head">
+    <text class="sec-label" ">What you can do</text>
+    <text class="tiny faint">4 features</text>
+  </view>
+  <view class="card">
+    <view class="list-row clickable"><view class="ico i-blue"><image class="icon icon-md" src="/assets/icons/credit-card-blue.png"/></view>
+      <view class="flex1" style="margin-left:24rpx"><view style="font-weight:700">Pay school fees</view><view class="tiny muted">Itemised bills, instant receipt</view></view>
+      <image class="icon icon-xs" src="/assets/icons/chevron-right-faint.png"/></view>
+    <view class="list-row clickable"><view class="ico i-navy"><image class="icon icon-md" src="/assets/icons/bullhorn-navy.png"/></view>
+      <view class="flex1" style="margin-left:24rpx"><view style="font-weight:700">Get school notices</view><view class="tiny muted">Straight to your phone, no chat groups</view></view>
+      <image class="icon icon-xs" src="/assets/icons/chevron-right-faint.png"/></view>
+    <view class="list-row clickable"><view class="ico i-blue"><image class="icon icon-md" src="/assets/icons/ticket-blue.png"/></view>
+      <view class="flex1" style="margin-left:24rpx"><view style="font-weight:700">Register for events</view><view class="tiny muted">Pay and get a QR ticket</view></view>
+      <image class="icon icon-xs" src="/assets/icons/chevron-right-faint.png"/></view>
+    <view class="list-row clickable"><view class="ico i-teal"><image class="icon icon-md" src="/assets/icons/money-bill-wave-teal.png"/></view>
+      <view class="flex1" style="margin-left:24rpx"><view style="font-weight:700">Track card spend</view><view class="tiny muted">Canteen and bookshop, itemised</view></view>
+      <image class="icon icon-xs" src="/assets/icons/chevron-right-faint.png"/></view>
+  </view>
+
+  <view class="tiny muted mt row" style="padding:0 8rpx"><image class="icon icon-xs icon-mr" src="/assets/icons/shield-halved-muted.png"/><text>Your child's records stay with the school. The wallet only sees what you pay.</text></view>
+
+  <view class="btn mt" style="border-radius:999rpx" data-url="/pages/link/link" onTap="nav"><text>Link my child</text><image class="icon icon-sm" src="/assets/icons/arrow-right-white.png"/></view>
+
+  <view class="row mt-s" style="justify-content:center">
+    <view class="avatar a-teal" style="width:40rpx;height:40rpx;border-radius:12rpx;font-size:16rpx;margin-right:12rpx">NH</view>
+    <text class="tiny muted">Signed in as <text style="font-weight:700">Nurul Hidayah</text> · +60 12-••• 4821</text>
+  </view>
+</view>

@@ -1,0 +1,27 @@
+
+<view class="page pad">
+  <view class="card card-p" style="background:linear-gradient(135deg,#0B2447,#123E7C);color:#fff;border:none">
+    <view class="row between"><text class="tiny" style="opacity:.8;font-weight:600">TNG VISA</text><text style="font-weight:800;font-style:italic">VISA</text></view>
+    <view style="letter-spacing:6rpx;font-size:34rpx;margin:44rpx 0 24rpx">•••• •••• •••• 4821</view>
+    <view class="row between tiny"><text style="opacity:.85">NURUL HIDAYAH</text><text style="opacity:.85">12/28</text></view>
+  </view>
+  <view class="tiny muted center mt-s row" style="justify-content:center"><image class="icon icon-xs icon-mr" src="/assets/icons/lock-muted.png"/><text>Read-only view of your TNG VISA transactions</text></view>
+
+  <view class="seg"><view class="seg-item on">All</view><view class="seg-item">Spend</view><view class="seg-item">Refunds</view></view>
+  <view class="row gap" style="margin-bottom:16rpx">
+    <view class="pill info"><image class="icon icon-xs" src="/assets/icons/calendar-days-blue.png"/><text>This month</text><image class="icon icon-xs" src="/assets/icons/chevron-down-blue.png"/></view>
+    <view class="pill info"><text>Type: All</text><image class="icon icon-xs" src="/assets/icons/chevron-down-blue.png"/></view>
+  </view>
+
+  <view class="card">
+    <view class="list-row"><view class="ico i-blue"><image class="icon icon-md" src="/assets/icons/utensils-blue.png"/></view><view class="flex1" style="margin-left:24rpx"><view style="font-weight:600;font-size:26rpx">Canteen — Kuen Cheng</view><view class="tiny muted">2 Aug · 12:30 PM · Settled</view></view><text class="money">-RM 6.50</text></view>
+    <view class="list-row"><view class="ico i-amber"><image class="icon icon-md" src="/assets/icons/book-amber.png"/></view><view class="flex1" style="margin-left:24rpx"><view style="font-weight:600;font-size:26rpx">MPH Bookstores</view><view class="tiny muted">1 Aug · 4:12 PM · Settled</view></view><text class="money">-RM 42.90</text></view>
+    <view class="list-row"><view class="ico i-green"><image class="icon icon-md" src="/assets/icons/rotate-left-green.png"/></view><view class="flex1" style="margin-left:24rpx"><view style="font-weight:600;font-size:26rpx">Refund — FamilyMart</view><view class="tiny muted">31 Jul · 6:02 PM · Settled</view></view><text class="money" style="color:var(--green)">+RM 3.20</text></view>
+    <view class="list-row"><view class="ico i-blue"><image class="icon icon-md" src="/assets/icons/bus-blue.png"/></view><view class="flex1" style="margin-left:24rpx"><view style="font-weight:600;font-size:26rpx">RapidKL Touch</view><view class="tiny muted">31 Jul · 7:45 AM · Settled</view></view><text class="money">-RM 2.10</text></view>
+    <view class="list-row"><view class="ico i-coral"><image class="icon icon-md" src="/assets/icons/store-coral.png"/></view><view class="flex1" style="margin-left:24rpx"><view style="font-weight:600;font-size:26rpx">School co-op store</view><view class="tiny muted">30 Jul · 10:15 AM · Settled</view></view><text class="money">-RM 4.00</text></view>
+  </view>
+  <view class="tiny muted center mt-s">Data from TNG VISA · updated 9:41 AM</view>
+
+  <view style="height:160rpx"></view>
+</view>
+<custom-tab-bar selected="{{tabIndex}}"></custom-tab-bar>

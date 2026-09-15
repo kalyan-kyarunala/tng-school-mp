@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "Fees",
+  "usingComponents": {
+    "custom-tab-bar": "/custom-tab-bar/index"
+  }
+}

@@ -1,0 +1,47 @@
+
+<view class="page pad center">
+  <view style="height:24rpx"></view>
+  <view class="i-blue" style="width:140rpx;height:140rpx;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 28rpx">
+    <image class="icon icon-2xl" src="/assets/icons/clock-blue.png"/>
+  </view>
+  <view class="h1" style="margin-top:8rpx">Request sent</view>
+  <view class="tiny muted" style="line-height:1.6;margin-top:18rpx">SJK(C) Kuen Cheng is reviewing your request to link <text style="margin-left:12rpx; font-weight:700"> Chong Wei Xuan</text>. We'll notify you the moment it's approved.</view>
+
+  <view class="card card-p" style="text-align:left;margin-top:40rpx">
+    <view class="row between" style="padding:6rpx 0"><text class="tiny muted">Student</text><text style="font-weight:700;font-size:26rpx">Chong Wei Xuan</text></view>
+    <view class="divider" style="margin:20rpx 0"></view>
+    <view class="row between" style="padding:6rpx 0"><text class="tiny muted">Student ID</text><text style="font-weight:700;font-size:26rpx">KC-2026-01847</text></view>
+    <view class="divider" style="margin:20rpx 0"></view>
+    <view class="row between" style="padding:6rpx 0"><text class="tiny muted">School</text><text style="font-weight:700;font-size:26rpx">SJK(C) Kuen Cheng</text></view>
+    <view class="divider" style="margin:20rpx 0"></view>
+    <view class="row between" style="padding:6rpx 0"><text class="tiny muted">Status</text><view class="pill amber"><view class="pill-dot"></view><text>Awaiting approval</text></view></view>
+  </view>
+
+  <view class="card" style="text-align:left;margin-top:40rpx;padding:36rpx 32rpx;box-sizing:border-box">
+    <text class="sec-label" >What happens next</text>
+    <view class="step">
+      <view class="step-rail"><view class="step-dot on"></view><view class="step-line"></view></view>
+      <view class="step-body">
+        <view class="step-title on">School verifies the ID</view>
+        <view class="step-desc">Today, usually within a few hours</view>
+      </view>
+    </view>
+    <view class="step">
+      <view class="step-rail"><view class="step-dot"></view><view class="step-line"></view></view>
+      <view class="step-body">
+        <view class="step-title">Fees and notices appear</view>
+        <view class="step-desc">Outstanding bills load automatically</view>
+      </view>
+    </view>
+    <view class="step">
+      <view class="step-rail"><view class="step-dot"></view></view>
+      <view class="step-body">
+        <view class="step-title">Pay in one tap</view>
+        <view class="step-desc">Receipt saved to your wallet</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="btn clickable" style="margin-top:20rpx" data-url="/pages/link-success/link-success" onTap="nav">Done</view>
+  <view class="tiny center clickable" data-url="/pages/link/link" onTap="nav" style="color:var(--tng);font-weight:700;margin-top:24rpx;padding:8rpx; font-size:28rpx">Link another child</view>
+</view>

@@ -1,0 +1,14 @@
+<view class="tab-bar">
+  <view
+    class="tab-item"
+    a:for="{{tabs}}"
+    a:for-item="item"
+    a:for-index="index"
+    data-index="{{index}}"
+    data-path="{{item.path}}"
+    onTap="switchTab"
+  >
+    <image class="tab-icon" src="{{selected === index ? item.iconActive : item.icon}}"/>
+    <text class="tab-text {{selected === index ? 'active' : ''}}">{{item.text}}</text>
+  </view>
+</view>

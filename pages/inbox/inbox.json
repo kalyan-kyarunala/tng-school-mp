@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "Inbox",
+  "usingComponents": {
+    "custom-tab-bar": "/custom-tab-bar/index"
+  }
+}

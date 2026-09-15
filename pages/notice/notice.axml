@@ -1,0 +1,16 @@
+
+<view class="page pad">
+  <text class="pill soon">Whole school</text>
+  <view class="h2" style="margin-top:20rpx;font-size:40rpx">Mid-term break: 18–22 August</view>
+  <view class="row mt-s"><view class="avatar a-blue" style="width:60rpx;height:60rpx;border-radius:18rpx;font-size:24rpx">KC</view><text class="tiny muted" style="margin-left:16rpx">SJK(C) Kuen Cheng · Admin office · 2h ago</text></view>
+
+  <view class="notice-cover" style="background:linear-gradient(135deg,#FFD9C2,#FFB088)"><image class="icon icon-2xl" src="/assets/icons/school-white.png"/></view>
+
+  <view style="line-height:1.65;color:#33425A">Dear parents,</view>
+  <view style="line-height:1.65;color:#33425A;margin-top:20rpx">Please note the school will be closed for the mid-term break from Monday, 18 August to Friday, 22 August. Classes resume on Monday, 25 August at the usual time.</view>
+  <view style="line-height:1.65;color:#33425A;margin-top:20rpx">The school office will remain open on 20 August (9am–1pm) for any fee or enrolment matters. Have a restful break!</view>
+ 
+  <view class="card card-p mt" style="background:#F5F8FF;border-color:#D9E5FB">
+    <view class="row"><view class="ico i-blue" style="width:60rpx;height:60rpx"><image class="icon icon-sm" src="/assets/icons/calendar-days-blue.png"/></view><text class="tiny" style="color:var(--tng);margin-left:20rpx">18–25 Aug · Added to your reminders</text></view>
+  </view>
+</view>

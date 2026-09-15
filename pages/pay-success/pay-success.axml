@@ -1,0 +1,19 @@
+
+<view class="page pad center">
+  <view style="height:40rpx"></view>
+  <view class="burst"><view class="check"><image class="icon icon-lg" src="/assets/icons/check-white.png"/></view></view>
+  <view class="h2">Payment successful</view>
+  <view class="money" style="font-size:60rpx;margin:20rpx 0 4rpx">RM 285.00</view>
+  <view class="tiny muted">Term 2 — 2026 · SJK(C) Kuen Cheng</view>
+
+  <view class="card card-p mt" style="text-align:left">
+    <view class="row between tiny"><text class="muted">Reference</text><text style="font-weight:700">TNG-SCH-8841207</text></view>
+    <view class="divider"></view>
+    <view class="row between tiny"><text class="muted">Paid via</text><text style="font-weight:700">TNG eWallet balance</text></view>
+    <view class="divider"></view>
+    <view class="row between tiny"><text class="muted">Date</text><text style="font-weight:700">3 Aug 2026, 9:41 AM</text></view>
+  </view>
+
+  <view class="btn" data-url="/pages/receipt/receipt" onTap="nav"><image class="icon icon-sm" src="/assets/icons/receipt-white.png"/><text>View receipt</text></view>
+  <view class="btn ghost" data-url="/pages/home/home" onTap="navTab"><image class="icon icon-sm" src="/assets/icons/house-blue.png"/><text>Back to home</text></view>
+</view>

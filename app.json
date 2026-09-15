@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/discover/discover",
+    "pages/link/link",
+    "pages/link-pending/link-pending",
+    "pages/link-success/link-success",
+    "pages/home/home",
+    "pages/children/children",
+    "pages/profile/profile",
+    "pages/fees/fees",
+    "pages/fee-detail/fee-detail",
+    "pages/pay-success/pay-success",
+    "pages/receipt/receipt",
+    "pages/inbox/inbox",
+    "pages/notice/notice",
+    "pages/events/events",
+    "pages/event-detail/event-detail",
+    "pages/ticket/ticket",
+    "pages/card/card",
+    "pages/history/history",
+    "pages/scan/scan"
+  ],
+  "window": {
+    "defaultTitle": "Fee Pilot",
+    "titleBarColor": "#0B62E6",
+    "pullRefresh": false,
+    "allowsBounceVertical": "NO"
+  },
+  "tabBar": {
+    "custom": true,
+    "textColor": "#9AA7BC",
+    "selectedColor": "#0B62E6",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "items": [
+      {
+        "pagePath": "pages/home/home",
+        "name": "Home",
+        "icon": "assets/tabbar/home.png",
+        "activeIcon": "assets/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/fees/fees",
+        "name": "Fees",
+        "icon": "assets/tabbar/fees.png",
+        "activeIcon": "assets/tabbar/fees-active.png"
+      },
+      {
+        "pagePath": "pages/events/events",
+        "name": "Events",
+        "icon": "assets/tabbar/events.png",
+        "activeIcon": "assets/tabbar/events-active.png"
+      },
+      {
+        "pagePath": "pages/card/card",
+        "name": "Card",
+        "icon": "assets/tabbar/card.png",
+        "activeIcon": "assets/tabbar/card-active.png"
+      },
+      {
+        "pagePath": "pages/inbox/inbox",
+        "name": "Inbox",
+        "icon": "assets/tabbar/inbox.png",
+        "activeIcon": "assets/tabbar/inbox-active.png"
+      }
+    ]
+  }
+}
