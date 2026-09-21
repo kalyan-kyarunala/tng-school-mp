@@ -1,30 +1,49 @@
 
 <view class="page pad">
-  <view class="hero hero-blue" style="position:relative;overflow:hidden">
-    <view class="row">
-      <view style="width:88rpx;height:88rpx;border-radius:24rpx;background:rgba(255,255,255,.22);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:28rpx;color:#fff;flex-shrink:0">WX</view>
-      <view class="flex1" style="margin-left:20rpx">
-        <text class="tiny" style="opacity:.75;letter-spacing:1.5rpx;text-transform:uppercase;font-weight:700">SJK(C) Kuen Cheng</text>
-        <view style="font-size:32rpx;font-weight:800;margin-top:6rpx">Chong Wei Xuan</view>
-        <view class="pill paid" style="margin-top:10rpx"><view class="pill-dot"></view><text>Active student</text></view>
+  <!-- TNG Smart ID Card -->
+  <view class="idc">
+    <view class="idc-inner">
+      <view class="idc-top">
+        <view class="idc-logo"><image class="icon icon-sm" src="/assets/icons/school-white.png"/></view>
+        <view class="flex1" style="margin-left:18rpx;min-width:0">
+          <view class="idc-school">SK Taman Desa 3</view>
+          <view class="idc-sub">TNG Smart ID Card</view>
+        </view>
+        <view class="idc-pass">TNG School Pass</view>
       </view>
-    </view>
-    <view class="hero-stats">
-      <view class="hero-stat"><view class="hero-stat-label">Class</view><view class="hero-stat-value">4 Bijak</view></view>
-      <view class="hero-stat"><view class="hero-stat-label">Session</view><view class="hero-stat-value">Morning</view></view>
-      <view class="hero-stat"><view class="hero-stat-label">Valid till</view><view class="hero-stat-value">Dec 2026</view></view>
+
+      <view class="idc-rule"></view>
+
+      <view class="idc-body">
+        <view class="idc-photo">
+          <text class="idc-photo-fallback">KL</text>
+          <!-- drop a portrait at /assets/photos/student.png to replace the initials -->
+          <image class="idc-photo-img" mode="aspectFill" src="/assets/photos/student.png"/>
+          <view class="idc-verified"><image class="icon icon-xs" src="/assets/icons/check-white.png"/></view>
+        </view>
+
+        <view class="idc-mid">
+          <view class="idc-name">Kaviya A/P Loganathan</view>
+          <view class="idc-class">Standard 1 · 1 Amanah</view>
+          <view class="idc-id">SKTD3-2026-010</view>
+        </view>
+
+        <view class="idc-qr">
+          <image class="idc-qr-img" src="/assets/qr/student-qr.png"/>
+          <view class="idc-qr-cap">Scan for canteen / attendance</view>
+        </view>
+      </view>
+
+      <view class="idc-rule"></view>
+
+      <view class="idc-foot">
+        <text class="idc-foot-l">Parent/Guardian: <text class="idc-foot-strong">Loganathan A/L Suppiah</text></text>
+        <text class="idc-foot-r">Touch 'n Go mini app ready</text>
+      </view>
     </view>
   </view>
 
-  <view class="card card-p mt center">
-    <view class="row between">
-      <text class="sec-label" style="margin:0">Student QR</text>
-    <!--  <view class="pill paid"><view class="pill-dot"></view><text>Refreshes in {{countdown}}</text></view> -->
-    </view>
-    <view class="row" style="justify-content:center;margin:28rpx 0 20rpx"><image class="qr lg" src="/assets/qr/student-qr.png"/></view>
-    <view style="font-weight:800;color:var(--tng);font-size:28rpx;letter-spacing:1rpx">KC-2026-01847</view>
-    <view class="tiny muted mt-s">Show at the gate for attendance, pickup and canteen.</view>
-  </view>
+  <view class="tiny muted center mt-s">Show at the gate for attendance, pickup and canteen.</view>
 
   <view class="row gap mt">
     <view class="btn flex1 clickable" style="margin:0" data-msg="Added to wallet" onTap="toast"><image class="icon icon-sm" src="/assets/icons/wallet-white.png"/><text>Add to Gallery</text></view>
@@ -33,7 +52,10 @@
 
   <text class="sec-label">Card details</text>
   <view class="card">
-    <view class="list-row between"><text class="tiny muted">Student ID</text><text style="font-weight:700;font-size:26rpx">KC-2026-01847</text></view>
+    <view class="list-row between"><text class="tiny muted">Student ID</text><text style="font-weight:700;font-size:26rpx">SKTD3-2026-010</text></view>
+    <view class="list-row between"><text class="tiny muted">Class</text><text style="font-weight:700;font-size:26rpx">1 Amanah</text></view>
+    <view class="list-row between"><text class="tiny muted">Session</text><text style="font-weight:700;font-size:26rpx">Morning</text></view>
+    <view class="list-row between"><text class="tiny muted">Valid till</text><text style="font-weight:700;font-size:26rpx">Dec 2026</text></view>
     <view class="list-row between"><text class="tiny muted">Class teacher</text><text style="font-weight:700;font-size:26rpx">Pn. Lim Sook Yee</text></view>
     <view class="list-row between"><text class="tiny muted">Bus route</text><text style="font-weight:700;font-size:26rpx">B-12 · Taman Desa</text></view>
   </view>

@@ -3,12 +3,12 @@ Page({
     tabIndex: 0,
     // Sample push notification preview — shows what a real TNGD notification looks
     // like once it deep-links a parent into this mini program. Real deeplink:
-    // tngdwallet://client/dl/mp?mpid=2171020264972013&path=%2Fpages%2Ffee-detail%2Ffee-detail&student=Chong%20Wei%20Xuan&amount=285.00
+    // tngdwallet://client/dl/mp?mpid=2171020264972013&path=%2Fpages%2Ffee-detail%2Ffee-detail&student=Kaviya%20A%2FP%20Loganathan&amount=285.00
     showPushNotif: true,
     notif: {
       icon: '/assets/icons/wallet-coral.png',
       title: 'Fee reminder',
-      body: 'RM 285.00 is due for Chong Wei Xuan on 19 Aug. Tap to pay now.',
+      body: 'RM 285.00 is due for Kaviya A/P Loganathan on 19 Aug. Tap to pay now.',
       url: '/pages/fee-detail/fee-detail'
     }
   },

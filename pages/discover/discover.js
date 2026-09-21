@@ -1,5 +1,5 @@
 Page({
-  data: {"parentName": "Nurul Hidayah"},
+  data: {"parentName": "Loganathan A/L Suppiah"},
   nav(e){ my.navigateTo({ url: e.currentTarget.dataset.url }); },
   navTab(e){ my.switchTab({ url: e.currentTarget.dataset.url }); },
   back(){ my.navigateBack(); },

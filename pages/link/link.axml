@@ -15,10 +15,10 @@
       <text class="tiny muted" style="letter-spacing:1.5rpx;text-transform:uppercase;font-weight:700">Student ID</text>
       <text class="tiny" style="color:var(--tng);font-weight:600">Where do I find it?</text>
     </view>
-    <input class="field mt-s" value="KC-2026-01847" placeholder="e.g. KC-2026-01847" />
+    <input class="field mt-s" value="SKTD3-2026-010" placeholder="e.g. SKTD3-2026-010" />
     <view class="match-chip" a:if="{{matched}}">
       <image class="icon icon-xs" src="/assets/icons/circle-check-green.png"/>
-      <text>Matches <text style="font-weight:700">SJK(C) Kuen Cheng</text> · Standard 4 Bijak</text>
+      <text>Matches <text style="font-weight:700">SK Taman Desa 3</text> · Standard 1 Amanah</text>
     </view>
 
     <view class="row mt" style="justify-content:center"><view class="divider flex1"></view><text class="tiny muted" style="margin:0 20rpx">or</text><view class="divider flex1"></view></view>
@@ -27,7 +27,7 @@
 
   <view class="card card-p mt" style="background:#F5F8FF;border-color:#D9E5FB">
     <view class="row"><view class="ico i-blue" style="width:64rpx;height:64rpx"><image class="icon icon-sm" src="/assets/icons/lock-blue.png"/></view>
-    <text class="tiny flex1" style="color:var(--tng);margin-left:20rpx">The school confirms every link before fees appear. You'll also get a one-time code on +60 12-••• 4821.</text></view>
+    <text class="tiny flex1" style="color:var(--tng);margin-left:20rpx">The school confirms every link before fees appear. You'll also get a one-time code on +60 17-••• 5678.</text></view>
   </view>
 
   <view class="btn mt" data-url="/pages/link-pending/link-pending" onTap="nav"><text>Submit for approval</text><image class="icon icon-sm" src="/assets/icons/arrow-right-white.png"/></view>

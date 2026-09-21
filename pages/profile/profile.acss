@@ -1,1 +1,94 @@
-/* profile — styles inherited from app.acss */
+/* profile — base styles inherited from app.acss */
+
+/* ── TNG Smart ID Card ───────────────────────────────────────────── */
+.idc{
+  position:relative; overflow:hidden;
+  border-radius:32rpx; padding:28rpx 30rpx; color:#fff;
+  background:linear-gradient(135deg,#1064DC 0%,#0B4FC0 55%,#0A47B0 100%);
+  box-shadow:0 18rpx 44rpx rgba(11,79,192,.32);
+}
+/* oversized translucent disc, as in the printed pass artwork */
+.idc::before{
+  content:""; position:absolute; right:-150rpx; bottom:-230rpx;
+  width:520rpx; height:520rpx; border-radius:50%;
+  background:rgba(255,255,255,.06);
+}
+.idc-inner{ position:relative; }
+
+/* header */
+.idc-top{ display:flex; align-items:center; }
+.idc-logo{
+  width:72rpx; height:72rpx; border-radius:50%; flex-shrink:0;
+  background:rgba(255,255,255,.18); border:2rpx solid rgba(255,255,255,.5);
+  display:flex; align-items:center; justify-content:center;
+}
+.idc-school{ font-size:29rpx; font-weight:800; line-height:1.2; }
+.idc-sub{
+  font-size:19rpx; font-weight:700; letter-spacing:2rpx;
+  text-transform:uppercase; color:rgba(255,255,255,.72); margin-top:4rpx;
+}
+.idc-pass{
+  flex-shrink:0; background:#FFC933; color:#0B2447;
+  font-size:19rpx; font-weight:800; letter-spacing:1rpx; text-transform:uppercase;
+  padding:10rpx 18rpx; border-radius:10rpx;
+}
+
+.idc-rule{ height:2rpx; background:rgba(255,255,255,.22); margin:24rpx 0; }
+
+/* body */
+.idc-body{ display:flex; align-items:center; }
+
+.idc-photo{
+  position:relative; width:136rpx; height:168rpx; flex-shrink:0;
+  border-radius:16rpx; overflow:visible;
+  background:rgba(255,255,255,.22); border:3rpx solid rgba(255,255,255,.65);
+}
+/* initials sit behind the portrait, so the frame still reads if no photo is set */
+.idc-photo-fallback{
+  position:absolute; left:0; right:0; top:50%; transform:translateY(-50%);
+  text-align:center; font-size:44rpx; font-weight:800; color:rgba(255,255,255,.85);
+}
+.idc-photo-img{ position:relative; width:100%; height:100%; border-radius:13rpx; }
+.idc-verified{
+  position:absolute; right:-12rpx; bottom:-10rpx;
+  width:42rpx; height:42rpx; border-radius:50%;
+  background:var(--green); border:3rpx solid #0B4FC0;
+  display:flex; align-items:center; justify-content:center;
+}
+
+.idc-mid{ flex:1; min-width:0; text-align:center; padding:0 16rpx; }
+/* wraps rather than truncating — the full name has to stay readable on an ID */
+.idc-name{ font-size:30rpx; font-weight:800; line-height:1.25; word-break:break-word; }
+.idc-class{ font-size:26rpx; font-weight:700; color:rgba(255,255,255,.95); margin-top:6rpx; }
+.idc-id{
+  display:inline-block; margin-top:14rpx; padding:8rpx 20rpx;
+  border-radius:10rpx; background:rgba(255,255,255,.14);
+  border:2rpx solid rgba(255,255,255,.42);
+  font-size:23rpx; font-weight:700; letter-spacing:.5rpx;
+}
+
+.idc-qr{ width:150rpx; flex-shrink:0; text-align:center; }
+.idc-qr-img{
+  width:128rpx; height:128rpx; background:#fff;
+  border-radius:12rpx; padding:8rpx; box-sizing:border-box;
+}
+.idc-qr-cap{
+  font-size:15rpx; font-weight:700; letter-spacing:.5rpx; line-height:1.35;
+  text-transform:uppercase; color:rgba(255,255,255,.72); margin-top:10rpx;
+}
+
+/* footer */
+.idc-foot{ display:flex; align-items:center; justify-content:space-between; gap:16rpx; }
+.idc-foot-l{ font-size:21rpx; color:rgba(255,255,255,.78); }
+.idc-foot-strong{ font-weight:800; color:#fff; }
+.idc-foot-r{
+  font-size:18rpx; font-weight:600; letter-spacing:1rpx;
+  text-transform:uppercase; color:rgba(255,255,255,.58); flex-shrink:0;
+}
+
+/* narrow handsets: stack the QR under the photo/name block */
+@media (max-width:340px){
+  .idc-body{ flex-wrap:wrap; justify-content:center; }
+  .idc-qr{ width:100%; margin-top:24rpx; }
+  .idc-qr-cap{ font-size:17rpx; }
+}

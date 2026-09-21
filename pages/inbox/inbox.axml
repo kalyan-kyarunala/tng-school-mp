@@ -9,7 +9,7 @@
     <view class="list-row clickable" data-url="/pages/notice/notice" onTap="nav"><view class="ico i-coral"><image class="icon icon-md" src="/assets/icons/bullhorn-coral.png"/></view>
       <view class="flex1" style="margin-left:24rpx"><view class="row between"><text style="font-weight:700">Mid-term break: 18–22 Aug</text><text class="pill due">New</text></view><view class="tiny muted">Whole school · 2h ago</view></view></view>
     <view class="list-row clickable" data-url="/pages/notice/notice" onTap="nav"><view class="ico i-blue"><image class="icon icon-md" src="/assets/icons/camera-blue.png"/></view>
-      <view class="flex1" style="margin-left:24rpx"><view style="font-weight:700">Std 4 photo day — bring RM 12</view><view class="tiny muted">Std 4 Bijak · Yesterday</view></view></view>
+      <view class="flex1" style="margin-left:24rpx"><view style="font-weight:700">Std 1 photo day — bring RM 12</view><view class="tiny muted">Std 1 Amanah · Yesterday</view></view></view>
     <view class="list-row clickable" data-url="/pages/notice/notice" onTap="nav"><view class="ico i-amber"><image class="icon icon-md" src="/assets/icons/book-amber.png"/></view>
       <view class="flex1" style="margin-left:24rpx"><view style="font-weight:700">Book fair next week</view><view class="tiny muted">Whole school · 2 days ago</view></view></view>
     <view class="list-row clickable" data-url="/pages/notice/notice" onTap="nav"><view class="ico i-green"><image class="icon icon-md" src="/assets/icons/stethoscope-green.png"/></view>

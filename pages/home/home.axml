@@ -16,10 +16,10 @@
     <view class="row between">
       <view class="flex1">
         <text class="tiny" style="opacity:.8;letter-spacing:1.5rpx;text-transform:uppercase;font-weight:700">Welcome back</text>
-        <view style="font-size:34rpx;font-weight:800;margin-top:8rpx">Nurul Hidayah</view>
-        <view class="tiny" style="opacity:.85;margin-top:6rpx">Parent · 1 child linked</view>
+        <view style="font-size:34rpx;font-weight:800;margin-top:8rpx">Loganathan A/L Suppiah</view>
+        <view class="tiny" style="opacity:.85;margin-top:6rpx">Father · 1 child linked</view>
       </view>
-      <view style="width:88rpx;height:88rpx;border-radius:24rpx;background:rgba(255,255,255,.22);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:28rpx;color:#fff;flex-shrink:0">NH</view>
+      <view style="width:88rpx;height:88rpx;border-radius:24rpx;background:rgba(255,255,255,.22);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:28rpx;color:#fff;flex-shrink:0">LS</view>
     </view>
   </view>
 
@@ -27,7 +27,7 @@
   <view class="chip-row">
     <view class="chip clickable" data-url="/pages/children/children" onTap="nav">
       <image class="icon icon-sm" src="/assets/icons/id-card-blue.png"/>
-      <text class="flex1">Chong Wei Xuan</text>
+      <text class="flex1">Kaviya A/P Loganathan</text>
       <image class="icon icon-xs" src="/assets/icons/chevron-down-blue.png"/>
     </view>
     <view class="chip">

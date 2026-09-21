@@ -30,7 +30,7 @@
   <view class="btn mt" style="border-radius:999rpx" data-url="/pages/link/link" onTap="nav"><text>Link my child</text><image class="icon icon-sm" src="/assets/icons/arrow-right-white.png"/></view>
 
   <view class="row mt-s" style="justify-content:center">
-    <view class="avatar a-teal" style="width:40rpx;height:40rpx;border-radius:12rpx;font-size:16rpx;margin-right:12rpx">NH</view>
-    <text class="tiny muted">Signed in as <text style="font-weight:700">Nurul Hidayah</text> · +60 12-••• 4821</text>
+    <view class="avatar a-teal" style="width:40rpx;height:40rpx;border-radius:12rpx;font-size:16rpx;margin-right:12rpx">LS</view>
+    <text class="tiny muted">Signed in as <text style="font-weight:700">Loganathan A/L Suppiah</text> · +60 17-••• 5678</text>
   </view>
 </view>

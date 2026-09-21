@@ -1,7 +1,7 @@
 
 <view class="page pad">
   <view class="row between"><view class="h2">Term 2 bill</view><view class="pill due"><image class="icon icon-xs" src="/assets/icons/calendar-days-red.png"/><text>Due 19 Aug</text></view></view>
-  <view class="tiny muted mt-s">Chong Wei Xuan · Std 4 Bijak</view>
+  <view class="tiny muted mt-s">Kaviya A/P Loganathan · Std 1 Amanah</view>
 
   <view class="card mt">
     <view class="list-row between"><view><view style="font-weight:600">Tuition fee</view><view class="tiny muted">Monthly · Aug 2026</view></view><text class="money">RM 180.00</text></view>

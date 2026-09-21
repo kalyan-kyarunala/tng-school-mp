@@ -2,11 +2,11 @@
 App({
   globalData: {
     // Populated from TNG SSO on launch (my.getAuthCode / getOpenUserInfo).
-    parentName: 'Nurul Hidayah',
-    activeChildId: 'KC-2026-01847',
+    parentName: 'Loganathan A/L Suppiah',
+    activeChildId: 'SKTD3-2026-010',
     // This mini program's registered id — the mpid every TNGD deeplink into this
     // app must carry. See "Deeplinking and Push Notification" docs, e.g.:
-    // tngdwallet://client/dl/mp?mpid=2171020264972013&path=%2Fpages%2Ffee-detail%2Ffee-detail&student=Chong%20Wei%20Xuan&amount=285.00
+    // tngdwallet://client/dl/mp?mpid=2171020264972013&path=%2Fpages%2Ffee-detail%2Ffee-detail&student=Kaviya%20A%2FP%20Loganathan&amount=285.00
     mpid: '2171020264972013',
     // Populated from a TNGD deeplink (push notification / SMS / banner tap), if this
     // launch/show came from one.

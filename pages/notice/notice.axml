@@ -2,7 +2,7 @@
 <view class="page pad">
   <text class="pill soon">Whole school</text>
   <view class="h2" style="margin-top:20rpx;font-size:40rpx">Mid-term break: 18–22 August</view>
-  <view class="row mt-s"><view class="avatar a-blue" style="width:60rpx;height:60rpx;border-radius:18rpx;font-size:24rpx">KC</view><text class="tiny muted" style="margin-left:16rpx">SJK(C) Kuen Cheng · Admin office · 2h ago</text></view>
+  <view class="row mt-s"><view class="avatar a-blue" style="width:60rpx;height:60rpx;border-radius:18rpx;font-size:24rpx">TD</view><text class="tiny muted" style="margin-left:16rpx">SK Taman Desa 3 · Admin office · 2h ago</text></view>
 
   <view class="notice-cover" style="background:linear-gradient(135deg,#FFD9C2,#FFB088)"><image class="icon icon-2xl" src="/assets/icons/school-white.png"/></view>
 
