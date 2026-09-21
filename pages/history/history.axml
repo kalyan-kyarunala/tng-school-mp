@@ -6,7 +6,7 @@
   <view class="sec-label">August 2026</view>
   <view class="card">
     <view class="list-row clickable" data-url="/pages/receipt/receipt" onTap="nav"><view class="ico i-green"><image class="icon icon-md" src="/assets/icons/credit-card-green.png"/></view><view class="flex1" style="margin-left:24rpx"><view style="font-weight:600;font-size:26rpx">Term 2 fees</view><view class="tiny muted">3 Aug · Ref 8841207</view></view><text class="money">RM 285.00</text></view>
-    <view class="list-row"><view class="ico i-amber"><image class="icon icon-md" src="/assets/icons/ticket-amber.png"/></view><view class="flex1" style="margin-left:24rpx"><view style="font-weight:600;font-size:26rpx">Sports Day ticket</view><view class="tiny muted">3 Aug · SPD-0338</view></view><text class="money">RM 15.00</text></view>
+    <view class="list-row"><view class="ico i-amber"><image class="icon icon-md" src="/assets/icons/ticket-amber.png"/></view><view class="flex1" style="margin-left:24rpx"><view style="font-weight:600;font-size:26rpx">Ceria Sports Carnival ticket</view><view class="tiny muted">3 Aug · SPD-0338</view></view><text class="money">RM 10.00</text></view>
   </view>
 
   <view class="sec-label">January 2026</view>

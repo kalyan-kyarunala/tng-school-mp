@@ -91,14 +91,14 @@
 
   <!-- upcoming event -->
   <view class="sec-head"><text class="sec-label">Upcoming event</text><view class="sec-link" data-url="/pages/events/events" onTap="navTab"><text>See all</text><image class="icon icon-xs" src="/assets/icons/chevron-right-blue.png"/></view></view>
-  <view class="card card-p clickable row" data-url="/pages/event-detail/event-detail" onTap="nav">
-    <view class="date-badge"><text class="date-badge-month">Aug</text><text class="date-badge-day">30</text></view>
+  <view class="card card-p clickable row" data-url="/pages/event-detail/event-detail?id=ev1" onTap="nav">
+    <view class="date-badge"><text class="date-badge-month">Aug</text><text class="date-badge-day">29</text></view>
     <view class="flex1" style="margin-left:24rpx">
-      <view style="font-weight:700;font-size:27rpx">Annual Sports Day</view>
-      <view class="tiny muted" style="margin-top:4rpx">Saturday · 8:00 AM · Field A</view>
+      <view style="font-weight:700;font-size:27rpx">SKTD3 Ceria Sports Carnival &amp; Fun Run</view>
+      <view class="tiny muted" style="margin-top:4rpx">Saturday · 7:30 AM · School field</view>
     </view>
     <view style="text-align:right">
-      <view class="money" style="color:var(--coral);font-size:26rpx">RM 15</view>
+      <view class="money" style="color:var(--coral);font-size:26rpx">RM 10</view>
       <text class="tiny" style="color:var(--tng);font-weight:700;margin-top:6rpx">Join</text>
     </view>
   </view>

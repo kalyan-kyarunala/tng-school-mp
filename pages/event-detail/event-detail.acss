@@ -1,1 +1,4 @@
-/* event-detail — styles inherited from app.acss */
+/* event-detail — base styles inherited from app.acss */
+
+.ed-cover{ position:relative; height:340rpx; background:#E7ECF4; }
+.ed-cover-img{ width:100%; height:100%; display:block; }

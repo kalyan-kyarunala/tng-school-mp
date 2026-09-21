@@ -3,22 +3,24 @@
   <view class="h2">School events</view>
   <view class="seg"><view class="seg-item on">Upcoming</view><view class="seg-item">My tickets</view></view>
 
-  <view class="card clickable" style="overflow:hidden;padding:0" data-url="/pages/event-detail/event-detail" onTap="nav">
-    <view class="event-cover" style="background:linear-gradient(135deg,#FFB454,#F2683B)"><image class="icon icon-2xl" src="/assets/icons/trophy-white.png"/></view>
-    <view class="card-p"><view class="row between"><text style="font-weight:700;font-size:30rpx">Annual Sports Day</text><text class="money" style="color:var(--coral)">RM 15</text></view>
-      <view class="tiny muted mt-s row"><image class="icon icon-xs icon-mr" src="/assets/icons/calendar-days-muted.png"/><text>Sat, 30 Aug · 8:00 AM · School field</text></view></view>
-  </view>
-
-  <view class="card clickable mt" style="overflow:hidden;padding:0" data-url="/pages/event-detail/event-detail" onTap="nav">
-    <view class="event-cover" style="background:linear-gradient(135deg,#7C9CFF,#4F46E5)"><image class="icon icon-2xl" src="/assets/icons/masks-theater-white.png"/></view>
-    <view class="card-p"><view class="row between"><text style="font-weight:700;font-size:30rpx">Annual Concert 2026</text><text class="money" style="color:var(--coral)">RM 25</text></view>
-      <view class="tiny muted mt-s row"><image class="icon icon-xs icon-mr" src="/assets/icons/calendar-days-muted.png"/><text>Fri, 12 Sep · 7:30 PM · Main hall</text></view></view>
-  </view>
-
-  <view class="card clickable mt" style="overflow:hidden;padding:0" data-url="/pages/event-detail/event-detail" onTap="nav">
-    <view class="event-cover" style="background:linear-gradient(135deg,#5EEAD4,#0D9488)"><image class="icon icon-2xl" src="/assets/icons/book-open-white.png"/></view>
-    <view class="card-p"><view class="row between"><text style="font-weight:700;font-size:30rpx">Book Fair (free entry)</text><text class="pill paid">Free</text></view>
-      <view class="tiny muted mt-s row"><image class="icon icon-xs icon-mr" src="/assets/icons/calendar-days-muted.png"/><text>18–20 Aug · School library</text></view></view>
+  <view class="card clickable {{index > 0 ? 'mt' : ''}}" style="overflow:hidden;padding:0"
+        a:for="{{events}}" a:for-item="ev" a:key="id"
+        data-url="/pages/event-detail/event-detail?id={{ev.id}}" onTap="nav">
+    <view class="ev-cover">
+      <image class="ev-img" mode="aspectFill" src="{{ev.cover}}"/>
+      <view class="ev-tag">{{ev.tag}}</view>
+      <view class="ev-price">RM {{ev.price}} / ticket</view>
+    </view>
+    <view class="card-p">
+      <view class="ev-title">{{ev.title}}</view>
+      <view class="ev-desc">{{ev.desc}}</view>
+      <view class="ev-meta"><image class="icon icon-xs icon-mr" src="/assets/icons/calendar-days-muted.png"/><text>{{ev.when}}</text></view>
+      <view class="ev-meta"><image class="icon icon-xs icon-mr" src="/assets/icons/location-dot-muted.png"/><text>{{ev.venue}}</text></view>
+      <view class="ev-sales">
+        <view class="row between"><text class="ev-sales-label">Ticket sales</text><text class="ev-sales-val">{{ev.sold}} / {{ev.capacity}} sold ({{ev.percent}}%)</text></view>
+        <view class="progress-track" style="margin-top:12rpx"><view class="progress-fill {{ev.warm ? 'warm' : ''}}" style="width:{{ev.percent}}%"></view></view>
+      </view>
+    </view>
   </view>
 
   <view style="height:160rpx"></view>

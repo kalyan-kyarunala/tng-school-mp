@@ -1,5 +1,6 @@
+const events = require('../../utils/events.js');
 Page({
-  data: { tabIndex: 2 },
+  data: { tabIndex: 2, events: events.list() },
   onShow(){
     if (typeof my.hideTabBar === 'function') { my.hideTabBar({ fail(){} }); }
   },

@@ -1,1 +1,13 @@
-/* events — styles inherited from app.acss */
+/* events — base styles inherited from app.acss (.ev-tag / .ev-price / .ev-sales-* live there) */
+
+.ev-cover{ position:relative; height:260rpx; background:#E7ECF4; }
+.ev-img{ width:100%; height:100%; display:block; }
+
+.ev-title{ font-weight:800; font-size:30rpx; line-height:1.35; }
+.ev-desc{ font-size:23rpx; line-height:1.55; color:var(--muted); margin-top:12rpx; }
+
+.ev-meta{ display:flex; align-items:center; font-size:22rpx; color:var(--muted); margin-top:14rpx; }
+.ev-meta text{ flex:1; }
+
+/* ticket-sales strip, mirroring the school portal's counter */
+.ev-sales{ margin-top:24rpx; padding-top:22rpx; border-top:1rpx solid var(--line); }
